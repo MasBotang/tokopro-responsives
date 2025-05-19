@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: ;
+    --green: #014D21;
+    --orange: #FF6801;
+    --white: #ffffff;
+    --black: #000000;
+    --krem: #F6E9DA;
+    --footer-bg: #ff67014a;
+    --bg-product: #ff670114;
+    --font-main: "Poppins", sans-serif;
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 1vw 7vw;
+}
+#logo{
+    width: 10%;
+    margin-left: 0;
+    margin-right: auto;
+}
+#logo img{
+    width: 100%;
+}
+#search-bar{
+    width: 65%;
+}
+#search-bar form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--orange);
+    border-radius: 1vw;
+    font-family: var(--font-main);
+}
+#search-bar button{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+#search-bar button img{
+    width: 30%;
+    z-index: 2;
+}
+#search-bar input{
+    width: 100%;
+    padding: 0.3vw;
+    font-size: 1.3vw;
+    border: none;
+    border-radius: 1vw;
+    outline: none;
+    font-family: var(--font-main);
+}
+#user-actions{
+    width: 10%;
+    display: flex;
+    gap: 1vw;
+}
+#cart{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+#cart img{
+    width: 100%;
+}
+.circle{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    top: -10%;
+    right: 40%;
+}
+.circle span{
+    background-color: var(--orange);
+    padding: 0.1vw 0.4vw;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    color: var(--white);
+}
+#notification-bar{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+#notification-bar img{
+    width: 100%;
+}
+.separator{
+    border-right: 2px solid var(--footer-bg);
+    height: 30px;
+}
+#account-access{
+    width: 15%;
+    display: flex;
+    gap: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-main);
+    margin-right: 0;
+    margin-left: auto;
+}
+#account-access img{
+    width: 40%;
+    cursor: pointer;
+}
+#login{
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+}
+#login span{
+    font-weight: bold;
+    color: var(--orange);
+}
+#registrasi{
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+}
+#logout{
+    height: 50%;
+    padding: 0.3vw 0vw;
+    border-radius: 0.5vw;
+    background-color: var(--white);
+    border: 1px solid var(--orange);
+    cursor: pointer;
+}
+#logout:hover{
+    background-color: var(--orange);
+        color: var(--white);
+}
+#logout span{
+    font-weight: bold;
+    padding: 0.5vw 1vw;
+    color: var(--orange);
+}
+#logout span:hover{
+    padding: 0.5vw 1vw;
+    color: var(--white);
+}
+#registrasi span{
+    font-weight: bold;
+    color: var(--white);
+}
+#profile{
+    border-radius: 50%;
+    width: 3%;
+}
+/* End of Header */
