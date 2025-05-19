@@ -10,14 +10,48 @@
     --font-main: "Poppins", sans-serif;
 }
 
+@media (max-width: 992px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw 3vw;
+    }
+    #search-bar form{
+        padding: 0.5vw;
+    }
+    #user-actions{
+        width: 10%;
+        gap: 2vw;
+    }
+    #account-access{
+        width: 15%;
+        margin: 0;
+    }
+    #account-access img{
+        width: 30%;
+    }
+    .circle span{
+        padding: 0vw 0.8vw;
+    }
+
+
+}
+
 @media (max-width: 768px) {
     header{
         display: flex;
         justify-content: space-between;
-        padding: 2vw 7vw;
+        padding: 2vw 3vw;
+    }
+    #search-bar{
+        width: 75%;
+    }
+    #search-bar form{
+        padding: 0.5vw;
     }
     #user-actions{
         width: 10%;
+        gap: 2vw;
     }
     #account-access{
         width: 5%;
@@ -26,7 +60,8 @@
     #account-access img{
         width: 100%;
     }
-    .circle{}
-
-
+    .circle span{
+        padding: 0vw 0.8vw;
+        font-size: 2vw;
+    }
 }
