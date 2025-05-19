@@ -1,0 +1,32 @@
+:root{
+    --primary-color: ;
+    --green: #014D21;
+    --orange: #FF6801;
+    --white: #ffffff;
+    --black: #000000;
+    --krem: #F6E9DA;
+    --footer-bg: #ff67014a;
+    --bg-product: #ff670114;
+    --font-main: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw 7vw;
+    }
+    #user-actions{
+        width: 10%;
+    }
+    #account-access{
+        width: 5%;
+        margin: 0;
+    }
+    #account-access img{
+        width: 100%;
+    }
+    .circle{}
+
+
+}
