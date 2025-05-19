@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama TokoPro</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div id="logo" class="d-none d-md-block">
+            <img src="/assets/image/logo-tokopro.png" alt="Logo Toko">
+        </div>
+        <div id="search-bar">       
+            <form action="/search" method="GET">
+                <button type="submit">
+                    <img src="/assets/image/search-icon.png" alt="Cari">
+                </button>
+                <input type="text" name="search-produk" placeholder="Cari di sini...">
+            </form>
+        </div>
+        <div id="user-actions">
+            <div id="cart">
+                <img src="/assets/image/cart-icon.svg" alt="Tombol Keranjang">
+                <div class="circle">
+                    <span>1</span>
+                </div>
+            </div>
+            <div id="notification-bar">
+                <img class="material-symbols-outlined" src="/assets/image/notification-icon.svg" alt="">
+                <div class="circle">
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div id="account-access"> 
+            <img src="/assets/image/profile-picture.png" alt="">
+            <div id="logout" class="d-none d-md-block">
+                <span>keluar</span>
+            </div>
+        </div>
+    </header>
+
+      <script src="/javascript/script.js"></script>
+</body>
+</html>
